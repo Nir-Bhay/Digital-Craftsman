@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Craftsman - Portfolio</title>
+    <title>ResuWebb - Portfolio</title>
     <meta name="description" content="Professional web developer creating stunning digital experiences">
-    <meta property="og:title" content="Digital Craftsman Portfolio">
+    <meta property="og:title" content="ResuWebb Portfolio">
     <meta property="og:description" content="Transforming Ideas into Stunning Websites">
     <meta property="og:type" content="website">
-    
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-    
+
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Loading Screen -->
     <div class="loader">
@@ -32,621 +34,1068 @@
     <div class="cursor-trail"></div>
 
     <!-- Navigation -->
-<!-- Enhanced Navigation -->
-<nav class="navbar">
-    <div class="container">
-        <div class="nav-brand">
-            <div class="logo-animation">
-                <span class="logo-text">Digital</span>
-                <div class="logo-icon">
-                    <div class="code-symbol">&lt;/&gt;</div>
-                </div>
-                <span class="logo-text accent">Craftsman</span>
-            </div>
-        </div>
-        
-        <div class="nav-menu">
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#services" class="nav-link">Services</a>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-            <a href="#testimonials" class="nav-link">Reviews</a>
-            <a href="#contact" class="nav-link">Contact</a>
-            <button class="theme-toggle" id="themeToggle">
-                <div class="theme-icon-wrapper">
-                    <i class="fas fa-sun sun-icon"></i>
-                    <i class="fas fa-moon moon-icon"></i>
-                </div>
-            </button>
-        </div>
-        
-        <div class="nav-toggle">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-</nav>
-
-<!-- Enhanced Hero Section -->
-<section id="home" class="hero">
-    <!-- Animated Background -->
-    <div class="hero-background">
-        <div id="particles-js"></div>
-        <div class="gradient-orbs">
-            <div class="orb orb-1"></div>
-            <div class="orb orb-2"></div>
-            <div class="orb orb-3"></div>
-        </div>
-        <div class="grid-pattern"></div>
-    </div>
-    
-    <!-- 3D Floating Elements -->
-    <div class="floating-elements">
-        <div class="floating-cube">
-            <div class="cube-face front"></div>
-            <div class="cube-face back"></div>
-            <div class="cube-face left"></div>
-            <div class="cube-face right"></div>
-            <div class="cube-face top"></div>
-            <div class="cube-face bottom"></div>
-        </div>
-        <div class="floating-icon html-icon">&lt;HTML&gt;</div>
-        <div class="floating-icon css-icon">{CSS}</div>
-        <div class="floating-icon js-icon">JS</div>
-        <div class="floating-emoji">🚀</div>
-        <div class="floating-emoji">💡</div>
-        <div class="floating-emoji">⚡</div>
-    </div>
-    
-    <!-- Main Content -->
-    <div class="hero-content">
-        <!-- Trust Badge -->
-        <div class="trust-badge animate-fade-up">
-            <i class="fas fa-shield-alt"></i>
-            <span>100% Satisfaction Guaranteed</span>
-        </div>
-        
-        <h1 class="hero-title animate-fade-up">
-            <span class="title-word">I</span>
-            <span class="title-word">Build</span>
-            <span class="title-word gradient-text">Digital</span>
-            <span class="title-word gradient-text">Dreams</span>
-        </h1>
-        
-        <p class="hero-subtitle animate-fade-up">
-            <span class="subtitle-icon">✨</span>
-            Transforming Your Ideas into Stunning Websites That 
-            <span class="highlight-text">Grow Your Business</span>
-        </p>
-        
-        <div class="typing-container animate-fade-up">
-            <span class="typing-prefix">I'm a </span>
-            <span class="typing-text"></span>
-            <span class="typing-cursor">|</span>
-        </div>
-        
-        <!-- Features Pills -->
-        <div class="hero-features animate-fade-up">
-            <div class="feature-pill">
-                <i class="fas fa-bolt"></i>
-                <span>Fast Delivery</span>
-            </div>
-            <div class="feature-pill">
-                <i class="fas fa-mobile-alt"></i>
-                <span>Mobile First</span>
-            </div>
-            <div class="feature-pill">
-                <i class="fas fa-heart"></i>
-                <span>Made with Love</span>
-            </div>
-        </div>
-        
-        <!-- CTA Buttons -->
-        <div class="hero-cta animate-fade-up">
-            <a href="#portfolio" class="cta-button primary magnetic-btn">
-                <span class="button-text">View My Work</span>
-                <div class="button-icon">
-                    <i class="fas fa-arrow-right"></i>
-                </div>
-                <div class="button-bg"></div>
-            </a>
-            <a href="#contact" class="cta-button secondary magnetic-btn">
-                <span class="button-text">Let's Talk</span>
-                <div class="button-icon">
-                    <i class="fas fa-comments"></i>
-                </div>
-            </a>
-        </div>
-        
-        <!-- Social Proof -->
-        <div class="hero-social-proof animate-fade-up">
-            <div class="client-avatars">
-                <img src="https://i.pravatar.cc/40?img=1" alt="Client 1" class="client-avatar">
-                <img src="https://i.pravatar.cc/40?img=2" alt="Client 2" class="client-avatar">
-                <img src="https://i.pravatar.cc/40?img=3" alt="Client 3" class="client-avatar">
-                <img src="https://i.pravatar.cc/40?img=4" alt="Client 4" class="client-avatar">
-                <div class="more-clients">+10</div>
-            </div>
-            <div class="social-proof-text">
-                <span class="proof-highlight">Happy Clients</span>
-                <span>building their dream websites</span>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Enhanced Scroll Indicator -->
-    <div class="scroll-indicator">
-        <div class="scroll-text">Scroll to explore</div>
-        <div class="mouse-wrapper">
-            <div class="mouse">
-                <div class="wheel"></div>
-            </div>
-            <div class="arrow-down">
-                <i class="fas fa-chevron-down"></i>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <!-- About Section -->
-   <!-- About Section Enhanced -->
-<section id="about" class="about section">
-    <!-- Animated Background -->
-    <div class="about-bg">
-        <div class="about-pattern"></div>
-        <div class="floating-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="section-header animate-on-scroll">
-            <span class="section-tag">Get To Know Me</span>
-            <h2 class="section-title">
-                Hi, I'm <span class="name-highlight">Your Name</span>
-                <span class="wave-emoji">👋</span>
-            </h2>
-        </div>
-        
-        <div class="about-content">
-            <!-- Left Side - Personal Info -->
-            <div class="about-left animate-on-scroll">
-                <div class="profile-card">
-                    <div class="profile-image-wrapper">
-                        <div class="profile-image">
-                            <img src="https://via.placeholder.com/300" alt="Profile">
-                            <div class="profile-status">Available for Work</div>
-                        </div>
-                        <div class="profile-decor">
-                            <div class="decor-circle decor-1"></div>
-                            <div class="decor-circle decor-2"></div>
-                            <div class="decor-circle decor-3"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="quick-info">
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Mumbai, India</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-coffee"></i>
-                            <span>Coffee Addict</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-gamepad"></i>
-                            <span>Part-time Gamer</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Achievement Badges Enhanced -->
-                <div class="achievements-grid">
-                    <div class="achievement-card">
-                        <div class="achievement-icon">
-                            <i class="fas fa-trophy"></i>
-                        </div>
-                        <h4>Top Rated</h4>
-                        <p>5★ Developer</p>
-                    </div>
-                    <div class="achievement-card">
-                        <div class="achievement-icon">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <h4>Fast Delivery</h4>
-                        <p>On-Time Always</p>
-                    </div>
-                    <div class="achievement-card">
-                        <div class="achievement-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <h4>Trusted</h4>
-                        <p>100% Secure</p>
-                    </div>
-                    <div class="achievement-card">
-                        <div class="achievement-icon">
-                            <i class="fas fa-headset"></i>
-                        </div>
-                        <h4>Support</h4>
-                        <p>24/7 Available</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Right Side - Bio & Skills -->
-            <div class="about-right animate-on-scroll">
-                <div class="bio-content">
-                    <p class="bio-text">
-                        I'm a <span class="highlight">passionate web developer</span> who transforms ideas into 
-                        stunning digital experiences. With a keen eye for design and a love for clean code, 
-                        I create websites that not only look amazing but also <span class="highlight">drive results</span>.
-                    </p>
-                    <p class="bio-text">
-                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source, 
-                        or enjoying a good cup of coffee while planning the next big project.
-                    </p>
-                    
-                    <!-- Fun Facts -->
-                    <div class="fun-facts">
-                        <div class="fact-item">
-                            <span class="fact-icon">⚡</span>
-                            <span class="fact-text">I type at 80+ WPM</span>
-                        </div>
-                        <div class="fact-item">
-                            <span class="fact-icon">🎯</span>
-                            <span class="fact-text">Pixel Perfect Designs</span>
-                        </div>
-                        <div class="fact-item">
-                            <span class="fact-icon">🚀</span>
-                            <span class="fact-text">Performance Obsessed</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Enhanced Skills Section -->
-                <div class="skills-wrapper">
-                    <h3 class="skills-title">My Expertise</h3>
-                    
-                    <!-- Skill Bars -->
-                    <div class="skill-bars">
-                        <div class="skill-item">
-                            <div class="skill-header">
-                                <span class="skill-name">Frontend Development</span>
-                                <span class="skill-percentage">95%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-header">
-                                <span class="skill-name">UI/UX Design</span>
-                                <span class="skill-percentage">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-header">
-                                <span class="skill-name">Backend Basics</span>
-                                <span class="skill-percentage">75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="75"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-header">
-                                <span class="skill-name">SEO & Performance</span>
-                                <span class="skill-percentage">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Tech Stack Icons -->
-                    <div class="tech-stack">
-                        <div class="tech-item" data-tooltip="">
-                            <i class="fab fa-html5"></i>
-                        </div>
-                        <div class="tech-item" data-tooltip="">
-                            <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <div class="tech-item" data-tooltip="">
-                            <i class="fab fa-js"></i>
-                        </div>
-                        <div class="tech-item" data-tooltip="">
-                            <i class="fab fa-react"></i>
-                        </div>
-                        <div class="tech-item" data-tooltip="">
-                            <i class="fab fa-node-js"></i>
-                        </div>
-                        <div class="tech-item" data-tooltip="">
-                            <i class="fab fa-git-alt"></i>
-                        </div>
-                        <div class="tech-item" data-tooltip="">
-                            <i class="fab fa-figma"></i>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Enhanced Stats Section -->
-        <div class="stats-container animate-on-scroll">
-            <div class="stats-wrapper">
-                <div class="stat-box">
-                    <div class="stat-icon">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <div class="stat-content">
-                        <div class="stat-number" data-count="50">0</div>
-                        <div class="stat-label">Projects Completed</div>
-                    </div>
-                    <div class="stat-decoration"></div>
-                </div>
-                
-                <div class="stat-box">
-                    <div class="stat-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="stat-content">
-                        <div class="stat-number" data-count="40">0</div>
-                        <div class="stat-label">Happy Clients</div>
-                    </div>
-                    <div class="stat-decoration"></div>
-                </div>
-                
-                <div class="stat-box">
-                    <div class="stat-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="stat-content">
-                        <div class="stat-number" data-count="1000">0</div>
-                        <div class="stat-label">Hours of Coding</div>
-                    </div>
-                    <div class="stat-decoration"></div>
-                </div>
-                
-                <div class="stat-box">
-                    <div class="stat-icon">
-                        <i class="fas fa-mug-hot"></i>
-                    </div>
-                    <div class="stat-content">
-                        <div class="stat-number" data-count="500">0</div>
-                        <div class="stat-label">Cups of Coffee</div>
-                    </div>
-                    <div class="stat-decoration"></div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- CTA at the end -->
-        <div class="about-cta animate-on-scroll">
-            <p>Ready to work together?</p>
-            <a href="#contact" class="cta-link">
-                Let's Create Something Amazing
-                <i class="fas fa-arrow-right"></i>
-            </a>
-        </div>
-    </div>
-</section>
-   
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <!-- Enhanced Navigation -->
+    <nav class="navbar">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">My Work</h2>
-            <div class="portfolio-filters animate-on-scroll">
-                <button class="filter-button active" data-filter="all">All</button>
-                <button class="filter-button" data-filter="business">Business</button>
-                <button class="filter-button" data-filter="restaurant">Restaurant</button>
-                <button class="filter-button" data-filter="ecommerce">E-commerce</button>
+            <div class="nav-brand">
+                <div class="logo-animation">
+                    <span class="logo-text">ResuWebb</span>
+                    <div class="logo-icon">
+                        <div class="code-symbol">&lt;/&gt;</div>
+                    </div>
+                    <!-- <span class="logo-text accent">Craftsman</span> -->
+                </div>
             </div>
-            <div class="portfolio-grid">
-                <!-- Portfolio items will be dynamically loaded -->
-                <div class="portfolio-item animate-on-scroll" data-category="business">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
-                        <div class="portfolio-overlay">
-                            <h3>Corporate Website</h3>
-                            <p>Modern business website with animations</p>
-                            <div class="portfolio-links">
-                                <a href="#" class="portfolio-link">View Live</a>
-                                <a href="#" class="portfolio-link">View Code</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
 
-                <div class="portfolio-item animate-on-scroll" data-category="restaurant">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 2">
-                        <div class="portfolio-overlay">
-                            <h3>Restaurant Website</h3>
-                            <p>Online menu and reservation system</p>
-                            <div class="portfolio-links">
-                                <a href="#" class="portfolio-link">View Live</a>
-                                <a href="#" class="portfolio-link">View Code</a>
-                            </div>
-                        </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <div class="theme-icon-wrapper">
+                        <i class="fas fa-sun sun-icon"></i>
+                        <i class="fas fa-moon moon-icon"></i>
                     </div>
-                    <div class="portfolio-tech">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
+                </button>
+            </div>
 
-                <div class="portfolio-item animate-on-scroll" data-category="ecommerce">
-                    <div class="portfolio-image">
-                        <img src="https://via.placeholder.com/400x300" alt="Project 3">
-                        <div class="portfolio-overlay">
-                            <h3>E-commerce Platform</h3>
-                            <p>Full-featured online store</p>
-                            <div class="portfolio-links">
-                                <a href="#" class="portfolio-link">View Live</a>
-                                <a href="#" class="portfolio-link">View Code</a>
-                            </div>
-                        </div>
+            <div class="nav-toggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Enhanced Hero Section -->
+    <section id="home" class="hero">
+        <!-- Animated Background -->
+        <div class="hero-background">
+            <div id="particles-js"></div>
+            <div class="gradient-orbs">
+                <div class="orb orb-1"></div>
+                <div class="orb orb-2"></div>
+                <div class="orb orb-3"></div>
+            </div>
+            <div class="grid-pattern"></div>
+        </div>
+
+        <!-- 3D Floating Elements -->
+        <div class="floating-elements">
+            <div class="floating-cube">
+                <div class="cube-face front"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face bottom"></div>
+            </div>
+            <div class="floating-icon html-icon">&lt;HTML&gt;</div>
+            <div class="floating-icon css-icon">{CSS}</div>
+            <div class="floating-icon js-icon">JS</div>
+            <div class="floating-emoji">🚀</div>
+            <div class="floating-emoji">💡</div>
+            <div class="floating-emoji">⚡</div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="hero-content">
+            <!-- Trust Badge -->
+            <div class="trust-badge animate-fade-up">
+                <i class="fas fa-shield-alt"></i>
+                <span>100% Satisfaction Guaranteed</span>
+            </div>
+
+            <h1 class="hero-title animate-fade-up">
+                <span class="title-word">I</span>
+                <span class="title-word">Build</span>
+                <span class="title-word gradient-text">Digital</span>
+                <span class="title-word gradient-text">Dreams</span>
+            </h1>
+
+            <p class="hero-subtitle animate-fade-up">
+                <span class="subtitle-icon">✨</span>
+                Transforming Your Ideas into Stunning Websites That
+                <span class="highlight-text">Grow Your Business</span>
+            </p>
+
+            <div class="typing-container animate-fade-up">
+                <span class="typing-prefix">I'm a </span>
+                <span class="typing-text"></span>
+                <span class="typing-cursor">|</span>
+            </div>
+
+            <!-- Features Pills -->
+            <div class="hero-features animate-fade-up">
+                <div class="feature-pill">
+                    <i class="fas fa-bolt"></i>
+                    <span>Fast Delivery</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile First</span>
+                </div>
+                <div class="feature-pill">
+                    <i class="fas fa-heart"></i>
+                    <span>Made with Love</span>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="hero-cta animate-fade-up">
+                <a href="#portfolio" class="cta-button primary magnetic-btn">
+                    <span class="button-text">View My Work</span>
+                    <div class="button-icon">
+                        <i class="fas fa-arrow-right"></i>
                     </div>
-                    <div class="portfolio-tech">
-                        <span>WordPress</span>
-                        <span>WooCommerce</span>
-                        <span>PHP</span>
+                    <div class="button-bg"></div>
+                </a>
+                <a href="#contact" class="cta-button secondary magnetic-btn">
+                    <span class="button-text">Let's Talk</span>
+                    <div class="button-icon">
+                        <i class="fas fa-comments"></i>
                     </div>
+                </a>
+            </div>
+
+            <!-- Social Proof -->
+            <div class="hero-social-proof animate-fade-up">
+                <div class="client-avatars">
+                    <img src="https://i.pravatar.cc/40?img=1" alt="Client 1" class="client-avatar">
+                    <img src="https://i.pravatar.cc/40?img=2" alt="Client 2" class="client-avatar">
+                    <img src="https://i.pravatar.cc/40?img=3" alt="Client 3" class="client-avatar">
+                    <img src="https://i.pravatar.cc/40?img=4" alt="Client 4" class="client-avatar">
+                    <div class="more-clients">+10</div>
+                </div>
+                <div class="social-proof-text">
+                    <span class="proof-highlight">Happy Clients</span>
+                    <span>building their dream websites</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Enhanced Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="mouse-wrapper">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow-down">
+                    <i class="fas fa-chevron-down"></i>
                 </div>
             </div>
         </div>
     </section>
 
- <!-- Services Section -->
-   <section id="services" class="services section">
-  <div class="container">
-    <h2 class="section-title animate-on-scroll">My Services</h2>
-    <div class="services-grid">
-<div class="service-card animate-on-scroll">
-  <div class="service-icon">
-    <i class="fas fa-user-graduate"></i>
-  </div>
-  <h3 class="service-title">Student Portfolio Website</h3>
-  <div class="service-price">₹499</div>
-  <ul class="service-features">
-    <li>✅ 1-Page Portfolio (Based on Resume)</li>
-    <li>✅ Projects, Skills, Contact Info Sections</li>
-    <li>✅ Mobile Responsive</li>
-    <li>✅ Clean & Modern UI</li>
-    <li>🌐 Free Hosting (GitHub Pages)</li>
-    <li>📄 Resume Required (PDF or Text Format)</li>
-    <li>🎓 Best for College Students, Internships</li>
-  </ul>
-  <p class="note">📌 Just send your resume — rest I’ll handle</p>
-  <button class="service-button">Build My Portfolio</button>
-</div>
-
-      <!-- Single Page Website -->
-      <div class="service-card animate-on-scroll">
-        <div class="service-icon">
-          <i class="fas fa-file-code"></i>
+    
+    <!-- About Section Enhanced -->
+    <section id="about" class="about section">
+        <!-- Animated Background -->
+        <div class="about-bg">
+            <div class="about-pattern"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
         </div>
-        <h3 class="service-title">Single Page Website</h3>
-        <div class="service-price">₹799</div>
-        <ul class="service-features">
-          <li>✅ Responsive Design</li>
-          <li>✅ Modern UI/UX</li>
-          <li>✅ Basic SEO</li>
-          <li>✅ Fast Loading</li>
-          <li>🌐 Hosted on GitHub Pages (Free)</li>
-          <li>❌ No Contact Form</li>
-          <li>❌ No Domain/Hosting Setup</li>
-        </ul>
-        <p class="note">📌 Best for personal use or portfolio</p>
-        <button class="service-button">Get Started</button>
-      </div>
 
-      <!-- Business Website -->
-      <div class="service-card featured animate-on-scroll">
-        <div class="service-icon">
-          <i class="fas fa-briefcase"></i>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Get To Know Me</span>
+                <h2 class="section-title">
+                    Hi, I'm <span class="name-highlight">ResuWebb</span>
+                    <span class="wave-emoji">👋</span>
+                </h2>
+            </div>
+
+            <div class="about-content">
+                <!-- Left Side - Personal Info -->
+                <div class="about-left animate-on-scroll">
+                    <div class="profile-card">
+                        <div class="profile-image-wrapper">
+                            <div class="profile-image">
+                                <img src="image/ChatGPT Image Jul 5, 2025, 07_44_28 PM.png" alt="Profile">
+                                <div class="profile-status">Available for Work</div>
+                            </div>
+                            <div class="profile-decor">
+                                <div class="decor-circle decor-1"></div>
+                                <div class="decor-circle decor-2"></div>
+                                <div class="decor-circle decor-3"></div>
+                            </div>
+                        </div>
+
+                        <div class="quick-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span> India</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-coffee"></i>
+                                <span>Coffee Addict</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-book"></i>
+                                <span>Book</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Achievement Badges Enhanced -->
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4>Top Rated</h4>
+                            <p>5★ Developer</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4>Fast Delivery</h4>
+                            <p>On-Time Always</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Trusted</h4>
+                            <p>100% Secure</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h4>Support</h4>
+                            <p>24/7 Available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Bio & Skills -->
+                <div class="about-right animate-on-scroll">
+                    <div class="bio-content">
+                        <p class="bio-text">
+                            I'm a <span class="highlight">passionate web developer</span> who transforms ideas into
+                            stunning digital experiences. With a keen eye for design and a love for clean code,
+                            I create websites that not only look amazing but also <span class="highlight">drive
+                                results</span>.
+                        </p>
+                        <p class="bio-text">
+                            When I'm not coding, you'll find me exploring new technologies, contributing to open-source,
+                            or enjoying a good cup of coffee while planning the next big project.
+                        </p>
+
+                        <!-- Fun Facts -->
+                        <div class="fun-facts">
+                            <div class="fact-item">
+                                <span class="fact-icon">⚡</span>
+                                <span class="fact-text">I type at 80+ WPM</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-icon">🎯</span>
+                                <span class="fact-text">Pixel Perfect Designs</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-icon">🚀</span>
+                                <span class="fact-text">Performance Obsessed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enhanced Skills Section -->
+                    <div class="skills-wrapper">
+                        <h3 class="skills-title">My Expertise</h3>
+
+                        <!-- Skill Bars -->
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Frontend Development</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">UI/UX Design</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Backend Basics</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">SEO & Performance</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tech Stack Icons -->
+                        <div class="tech-stack">
+                            <div class="tech-item" data-tooltip="">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="tech-item" data-tooltip="">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="tech-item" data-tooltip="">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="tech-item" data-tooltip="">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="tech-item" data-tooltip="">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="tech-item" data-tooltip="">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="tech-item" data-tooltip="">
+                                <i class="fab fa-figma"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enhanced Stats Section -->
+            <div class="stats-container animate-on-scroll">
+                <div class="stats-wrapper">
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="50">10+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-decoration"></div>
+                    </div>
+
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="40">20+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-decoration"></div>
+                    </div>
+
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="1000">1000+</div>
+                            <div class="stat-label">Hours of Coding</div>
+                        </div>
+                        <div class="stat-decoration"></div>
+                    </div>
+
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-mug-hot"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="500">500+</div>
+                            <div class="stat-label">Cups of Tea</div>
+                        </div>
+                        <div class="stat-decoration"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA at the end -->
+            <div class="about-cta animate-on-scroll">
+                <p>Ready to work together?</p>
+                <a href="#contact" class="cta-link">
+                    Let's Create Something Amazing
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
         </div>
-        <h3 class="service-title">Business Website</h3>
-        <div class="service-price">₹1999</div>
-        <ul class="service-features">
-          <li>✅ 5–10 Static Pages</li>
-          <li>✅ Contact Form (Basic)</li>
-          <li>✅ Google Maps Integration</li>
-          <li>✅ Social Media Links</li>
-          <li>🌐 GitHub/Netlify Hosting (Free)</li>
-          <li>🛑 No Dynamic Backend</li>
-        </ul>
-        <p class="note">🎯 Ideal for local business or startup showcase</p>
-        <button class="service-button">Get Started</button>
-      </div>
+    </section>
 
-   
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="portfolio-header">
+                <h2 class="section-title animate-on-scroll">My Creative Portfolio</h2>
+                <p class="section-subtitle animate-on-scroll">Bringing Ideas to Life Through Code</p>
+            </div>
 
-      <!-- Custom Solution -->
-      <div class="service-card animate-on-scroll">
-        <div class="service-icon">
-          <i class="fas fa-cogs"></i>
+            <div class="portfolio-stats animate-on-scroll">
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Support</span>
+                </div>
+            </div>
+
+            <div class="portfolio-filters animate-on-scroll">
+                <button class="filter-button active" data-filter="all">
+                    <span>All Projects</span>
+                    <span class="filter-count">5</span>
+                </button>
+                <button class="filter-button" data-filter="business">
+                    <span>Business</span>
+                    <span class="filter-count">2</span>
+                </button>
+                <button class="filter-button" data-filter="restaurant">
+                    <span>Restaurant</span>
+                    <span class="filter-count">1</span>
+                </button>
+                <button class="filter-button" data-filter="beauty">
+                    <span>Beauty</span>
+                    <span class="filter-count">1</span>
+                </button>
+                <button class="filter-button" data-filter="fitness">
+                    <span>Fitness</span>
+                    <span class="filter-count">1</span>
+                </button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Glow Studio - Beauty Salon -->
+                <div class="portfolio-item animate-on-scroll" data-category="beauty">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80"
+                            alt="Glow Studio">
+                        <div class="project-status">Live</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Glow Studio</h3>
+                                <p>Where Beauty Meets Perfection - Luxury beauty salon with booking system</p>
+                                <div class="portfolio-links">
+                                    <a href="https://glow-studio.vercel.app/" target="_blank"
+                                        class="portfolio-link live">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Site
+                                    </a>
+                                    <a href="#" class="portfolio-link code">
+                                        <i class="fab fa-github"></i>
+                                        Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-date">Updated 10 minutes ago</div>
+                    </div>
+                </div>
+
+                <!-- Digital Craftsman - Portfolio -->
+                <div class="portfolio-item animate-on-scroll" data-category="business">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80"
+                            alt="Digital Craftsman">
+                        <div class="project-status">Live</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Digital Craftsman</h3>
+                                <p>Personal portfolio showcasing digital creativity and web development skills</p>
+                                <div class="portfolio-links">
+                                    <a href="https://digital-craftsman.vercel.app/" target="_blank"
+                                        class="portfolio-link live">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Site
+                                    </a>
+                                    <a href="#" class="portfolio-link code">
+                                        <i class="fab fa-github"></i>
+                                        Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tech">
+                            <span>CSS3</span>
+                            <span>Animation</span>
+                            <span>Modern UI</span>
+                            <span>Mobile First</span>
+                        </div>
+                        <div class="project-date">Updated 3 days ago</div>
+                    </div>
+                </div>
+
+                <!-- Spice Symphony - Restaurant -->
+                <div class="portfolio-item animate-on-scroll" data-category="restaurant">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80"
+                            alt="Spice Symphony">
+                        <div class="project-status">Live</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Spice Symphony</h3>
+                                <p>Food zone restaurant website with interactive menu and ordering system</p>
+                                <div class="portfolio-links">
+                                    <a href="https://spice-symphony-foodzoon.vercel.app/" target="_blank"
+                                        class="portfolio-link live">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Site
+                                    </a>
+                                    <a href="#" class="portfolio-link code">
+                                        <i class="fab fa-github"></i>
+                                        Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="project-date">Updated 3 days ago</div>
+                    </div>
+                </div>
+
+                <!-- PowerZone - Fitness -->
+                <div class="portfolio-item animate-on-scroll" data-category="fitness">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80"
+                            alt="PowerZone">
+                        <div class="project-status">Live</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>PowerZone</h3>
+                                <p>Unleash Your Beast Mode - High-energy fitness center website</p>
+                                <div class="portfolio-links">
+                                    <a href="https://powerzone-unleash-your-beast-mode.vercel.app/" target="_blank"
+                                        class="portfolio-link live">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Site
+                                    </a>
+                                    <a href="#" class="portfolio-link code">
+                                        <i class="fab fa-github"></i>
+                                        Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tech">
+                            <span>CSS3</span>
+                            <span>Animation</span>
+                            <span>Responsive</span>
+                            <span>Modern</span>
+                        </div>
+                        <div class="project-date">Updated 3 days ago</div>
+                    </div>
+                </div>
+
+                <!-- Collaborative Task Board -->
+                <div class="portfolio-item animate-on-scroll" data-category="business">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80"
+                            alt="Task Board">
+                        <div class="project-status">Live</div>
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Collaborative Task Board</h3>
+                                <p>Team collaboration tool with real-time task management and tracking</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link live">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Site
+                                    </a>
+                                    <a href="#" class="portfolio-link code">
+                                        <i class="fab fa-github"></i>
+                                        Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tech">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Real-time</span>
+                        </div>
+                        <div class="project-date">Updated 3 days ago</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta animate-on-scroll">
+                <h3>Ready to Start Your Project?</h3>
+                <p>Let's create something amazing together</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
         </div>
-        <h3 class="service-title">Custom Solution</h3>
-        <div class="service-price">Let’s Talk</div>
-        <ul class="service-features">
-          <li>💡 Tailored Design</li>
-          <li>🧩 API Integration</li>
-          <li>🔄 Dynamic Dashboard</li>
-          <li>📞 Dedicated Support</li>
-          <li>📦 Hosting + Domain Config (Extra)</li>
-        </ul>
-        <p class="note">📲 Contact for custom plan & pricing</p>
-        <button class="service-button">Discuss Your Idea</button>
-      </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    
 
     <!-- Process Section -->
     <section id="process" class="process section">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">How I Work</h2>
-            <div class="timeline">
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-icon">
+            <div class="process-header">
+                <h2 class="section-title animate-on-scroll">How I Work</h2>
+                <p class="section-subtitle animate-on-scroll">My proven process for delivering exceptional results</p>
+            </div>
+
+            <div class="process-stats animate-on-scroll">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">7-14</span>
+                        <span class="stat-label">Days Average</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Free Revisions</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-wrapper">
+                <div class="timeline">
+                    <div class="timeline-progress">
+                        <div class="progress-line"></div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll" data-step="1">
+                        <div class="timeline-icon">
+                            <div class="icon-inner">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="content-inner">
+                                <span class="step-number">01</span>
+                                <h3>Discuss & Discover</h3>
+                                <p>We start with a detailed consultation to understand your vision, goals, and
+                                    requirements.
+                                    I'll ask the right questions to ensure we're aligned from the beginning.</p>
+                                <div class="process-features">
+                                    <span class="feature">Requirements Analysis</span>
+                                    <span class="feature">Goal Setting</span>
+                                    <span class="feature">Timeline Planning</span>
+                                </div>
+                            </div>
+                            <div class="content-decoration">
+                                <div class="floating-element">💬</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll" data-step="2">
+                        <div class="timeline-icon">
+                            <div class="icon-inner">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="content-inner">
+                                <span class="step-number">02</span>
+                                <h3>Design & Prototype</h3>
+                                <p>Creating wireframes and high-fidelity mockups that bring your vision to life. You'll
+                                    see
+                                    exactly how your website will look before any code is written.</p>
+                                <div class="process-features">
+                                    <span class="feature">Wireframing</span>
+                                    <span class="feature">UI/UX Design</span>
+                                    <span class="feature">Client Approval</span>
+                                </div>
+                            </div>
+                            <div class="content-decoration">
+                                <div class="floating-element">🎨</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll" data-step="3">
+                        <div class="timeline-icon">
+                            <div class="icon-inner">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="content-inner">
+                                <span class="step-number">03</span>
+                                <h3>Develop & Build</h3>
+                                <p>Transforming designs into a fully functional website using clean, modern code. Every
+                                    element is crafted with attention to detail and performance.</p>
+                                <div class="process-features">
+                                    <span class="feature">Clean Code</span>
+                                    <span class="feature">Responsive Design</span>
+                                    <span class="feature">Performance Optimization</span>
+                                </div>
+                            </div>
+                            <div class="content-decoration">
+                                <div class="floating-element">⚡</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll" data-step="4">
+                        <div class="timeline-icon">
+                            <div class="icon-inner">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="icon-pulse"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="content-inner">
+                                <span class="step-number">04</span>
+                                <h3>Launch & Support</h3>
+                                <p>Your website goes live with comprehensive testing and optimization. I provide ongoing
+                                    support and maintenance to ensure everything runs smoothly.</p>
+                                <div class="process-features">
+                                    <span class="feature">Quality Testing</span>
+                                    <span class="feature">Live Deployment</span>
+                                    <span class="feature">Ongoing Support</span>
+                                </div>
+                            </div>
+                            <div class="content-decoration">
+                                <div class="floating-element">🚀</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-cta animate-on-scroll">
+                <div class="cta-content">
+                    <h3>Ready to Start Your Project?</h3>
+                    <p>Let's discuss your vision and bring it to life together</p>
+                    <a href="#contact" class="cta-button">Start Your Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="services-header">
+                <h2 class="section-title animate-on-scroll">My Services</h2>
+                <p class="section-subtitle animate-on-scroll">Professional web development solutions tailored to your
+                    needs
+                </p>
+            </div>
+    
+            <div class="services-stats animate-on-scroll">
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Support Available</span>
+                </div>
+            </div>
+    
+            <div class="services-grid">
+                <!-- Student Portfolio Website -->
+                <div class="service-card animate-on-scroll" data-service="student">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-user-graduate"></i>
+                            <div class="icon-bg"></div>
+                        </div>
+                        <div class="service-badge">Most Popular</div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Student Portfolio Website</h3>
+                        <div class="service-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">499</span>
+                            <span class="period">one-time</span>
+                        </div>
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>1-Page Portfolio (Based on Resume)</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Projects, Skills, Contact Info Sections</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Mobile Responsive Design</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Clean & Modern UI</span>
+                            </li>
+                            <li class="feature-item bonus">
+                                <i class="fas fa-gift"></i>
+                                <span>Free Hosting (GitHub Pages)</span>
+                            </li>
+                            <li class="feature-item requirement">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Resume Required (PDF or Text Format)</span>
+                            </li>
+                            <li class="feature-item highlight">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Best for College Students, Internships</span>
+                            </li>
+                        </ul>
+                        <div class="service-note">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Just send your resume — rest I'll handle</span>
+                        </div>
+                    </div>
+                    <div class="service-footer">
+                        <button class="service-button">
+                            <span>Build My Portfolio</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+    
+                <!-- Single Page Website -->
+                <div class="service-card animate-on-scroll" data-service="single">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-file-code"></i>
+                            <div class="icon-bg"></div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Single Page Website</h3>
+                        <div class="service-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">799</span>
+                            <span class="period">one-time</span>
+                        </div>
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Responsive Design</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Modern UI/UX</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Basic SEO Optimization</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Fast Loading Performance</span>
+                            </li>
+                            <li class="feature-item bonus">
+                                <i class="fas fa-gift"></i>
+                                <span>Hosted on GitHub Pages (Free)</span>
+                            </li>
+                            <li class="feature-item limitation">
+                                <i class="fas fa-times"></i>
+                                <span>No Contact Form</span>
+                            </li>
+                            <li class="feature-item limitation">
+                                <i class="fas fa-times"></i>
+                                <span>No Domain/Hosting Setup</span>
+                            </li>
+                        </ul>
+                        <div class="service-note">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Best for personal use or portfolio</span>
+                        </div>
+                    </div>
+                    <div class="service-footer">
+                        <button class="service-button">
+                            <span>Get Started</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+    
+                <!-- Business Website -->
+                <!-- <div class="service-card featured animate-on-scroll" data-service="business">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                            <div class="icon-bg"></div>
+                        </div>
+                        <div class="service-badge featured-badge">Recommended</div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Business Website</h3>
+                        <div class="service-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">1999</span>
+                            <span class="period">one-time</span>
+                        </div>
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>5–10 Static Pages</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Contact Form (Basic)</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Google Maps Integration</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Social Media Links</span>
+                            </li>
+                            <li class="feature-item bonus">
+                                <i class="fas fa-gift"></i>
+                                <span>GitHub/Netlify Hosting (Free)</span>
+                            </li>
+                            <li class="feature-item limitation">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>No Dynamic Backend</span>
+                            </li>
+                        </ul>
+                        <div class="service-note">
+                            <i class="fas fa-target"></i>
+                            <span>Ideal for local business or startup showcase</span>
+                        </div>
+                    </div>
+                    <div class="service-footer">
+                        <button class="service-button featured-button">
+                            <span>Get Started</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div> -->
+    
+                <!-- Custom Solution -->
+                <div class="service-card animate-on-scroll" data-service="custom">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                            <div class="icon-bg"></div>
+                        </div>
+                        <div class="service-badge custom-badge">Enterprise</div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Custom Solution</h3>
+                        <div class="service-price">
+                            <span class="amount custom-price">Let's Talk</span>
+                        </div>
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Tailored Design</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-puzzle-piece"></i>
+                                <span>API Integration</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>Dynamic Dashboard</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fas fa-headset"></i>
+                                <span>Dedicated Support</span>
+                            </li>
+                            <li class="feature-item extra">
+                                <i class="fas fa-plus"></i>
+                                <span>Hosting + Domain Config (Extra)</span>
+                            </li>
+                        </ul>
+                        <div class="service-note">
+                            <i class="fas fa-phone"></i>
+                            <span>Contact for custom plan & pricing</span>
+                        </div>
+                    </div>
+                    <div class="service-footer">
+                        <button class="service-button custom-button">
+                            <span>Discuss Your Idea</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="services-cta animate-on-scroll">
+                <div class="cta-content">
+                    <h3>Not sure which service fits your needs?</h3>
+                    <p>Let's have a free consultation to discuss your project requirements</p>
+                    <a href="#contact" class="cta-button">
                         <i class="fas fa-comments"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Discuss</h3>
-                        <p>Understanding your needs and vision for the project</p>
-                    </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-icon">
-                        <i class="fas fa-pencil-ruler"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Design</h3>
-                        <p>Creating mockups and getting your approval</p>
-                    </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Develop</h3>
-                        <p>Building your website with clean, modern code</p>
-                    </div>
-                </div>
-                <div class="timeline-item animate-on-scroll">
-                    <div class="timeline-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Deliver</h3>
-                        <p>Launch your site and provide ongoing support</p>
-                    </div>
+                        <span>Free Consultation</span>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <!-- <section id="testimonials" class="testimonials section">
         <div class="container">
             <h2 class="section-title animate-on-scroll">Client Reviews</h2>
             <div class="testimonials-carousel">
@@ -720,92 +1169,109 @@
                 <span class="dot" data-slide="2"></span>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-        <div class="container">
-            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-form-wrapper animate-on-scroll">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" required>
-                            <label for="name">Your Name</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" required>
-                            <label for="email">Your Email</label>
-                        </div>
-                        <div class="form-group">
-                            <select id="projectType" required>
-                                                                <option value="">Select Project Type</option>
-                                <option value="single-page">Single Page Website</option>
-                                <option value="business">Business Website</option>
-                                <option value="ecommerce">E-commerce Site</option>
-                                <option value="custom">Custom Solution</option>
-                            </select>
-                            <label for="projectType">Project Type</label>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" rows="5" required></textarea>
-                            <label for="message">Your Message</label>
-                        </div>
-                        <button type="submit" class="submit-button">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+    <!-- Contact Seccontacttion -->
+<section id="contact" class="contact section">
+    <div class="container">
+        <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-form-wrapper animate-on-scroll">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required autocomplete="name">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required autocomplete="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="projectType" required>
+                            <option value="">Select Project Type</option>
+                            <option value="single-page">Single Page Website</option>
+                            <option value="business">Business Website</option>
+                            <option value="ecommerce">E-commerce Site</option>
+                            <option value="portfolio">Portfolio Website</option>
+                            <option value="web-app">Web Application</option>
+                            <option value="custom">Custom Solution</option>
+                        </select>
+                        <label for="projectType">Project Type</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=""></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="contact-info animate-on-scroll">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>resuwebb@example.com</p>
+                    </div>
                 </div>
-                <div class="contact-info animate-on-scroll">
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>your.email@example.com</p>
-                        </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91</p>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+91 98765 43210</p>
-                        </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>India</p>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Available Hours</h4>
-                            <p>Mon-Fri: 9AM-6PM IST</p>
-                        </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Available Hours</h4>
+                        <p>Mon-Fri: 9AM-6PM IST</p>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-reply"></i>
-                        <div>
-                            <h4>Response Time</h4>
-                            <p>Within 24 hours</p>
-                        </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-reply"></i>
+                    <div>
+                        <h4>Response Time</h4>
+                        <p>Within 24 hours</p>
                     </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Digital Craftsman. All rights reserved.</p>
+            <p>&copy; 2024 ResuWebb. All rights reserved.</p>
         </div>
     </footer>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">
+    <a href="https://wa.me/" class="whatsapp-float" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -816,6 +1282,13 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="script.js"></script>
+    <script>
+
+    </script>
+    <script src="script.js">
+
+
+    </script>
 </body>
+
 </html>
